@@ -1,4 +1,4 @@
 -- run the DBA_Scripts_orphaned_users script to create the stored procedure "sp_DBAgetorphanedUsers"
--- add the stored procedure as system stored procedure to run it from any database inside the server and set the context to current database with below command
+-- add the stored procedure as system stored procedure(master database) to run it from any database inside the server and set the context to current database with below command
 
 sp_MS_marksystemobject 'sp_DBAgetOrphanedUsers'
