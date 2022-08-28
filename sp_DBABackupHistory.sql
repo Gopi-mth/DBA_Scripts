@@ -1,5 +1,6 @@
 create or alter procedure sp_DBABackupHistory(@dbname varchar(max))  
 as  
+
   
 ----------------------------------------Gives last 10 backup details of the  provided database---------------  
 select top 10 bs.database_name,  
