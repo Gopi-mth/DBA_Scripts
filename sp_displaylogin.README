@@ -1,0 +1,3 @@
+create sp_displayloginsDatabaseRoles first - gives  permission details  on database level
+
+create sp_displaylogin -gives  server and database level roles.
